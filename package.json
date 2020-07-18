@@ -1,0 +1,39 @@
+{
+    "name": "leetcode-extension-pack",
+    "displayName": "LeetCode Extension Pack",
+    "description": "Popular Visual Studio Code extensions for LeetCode",
+    "version": "0.1.0",
+    "publisher": "bat67",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "galleryBanner": {
+        "color": "#333333",
+		"theme": "dark"
+    },
+    "keywords": [
+        "leetcode",
+		"algorithm",
+        "dubug",
+        "interview",
+		"extension pack"
+	],
+    "categories": [
+        "Extension Packs"
+    ],
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/bat67/leetcode-extension-pack"
+	},
+	"homepage": "https://github.com/bat67/leetcode-extension-pack",
+	"bugs": {
+        "url": "https://github.com/bat67/leetcode-extension-pack/issues"
+    },
+    "extensionDependencies": [ 
+        "LeetCode.vscode-leetcode",
+        "wangtao0101.debug-leetcode",
+        "XavierCai.vscode-leetcode-cpp-debug"
+    ]
+}
